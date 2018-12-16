@@ -14,7 +14,7 @@ pub mod dayone {
             sum += line.unwrap().parse::<i32>().unwrap();
         }
 
-        println!("sum of file is {}", sum);
+        println!("[day 1-1] sum of file is {}", sum);
 
         Ok(())
     }
@@ -35,13 +35,13 @@ pub mod dayone {
             }
         }
 
-        println!("first duplicate sum is {}", sum);
+        println!("[day 1-2] first duplicate sum is {}", sum);
 
         Ok(())
     }
 
     fn read_input() -> std::result::Result<BufReader<File>, io::Error> {
-        let f = File::open("day-1-input.txt")?;
+        let f = File::open("inputs/day-one-input.txt")?;
         Ok(BufReader::new(f))
     }
 }
