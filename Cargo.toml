@@ -1,9 +1,0 @@
-[package]
-name = "advent-of-code-2018"
-version = "0.1.0"
-authors = ["Nick Hirakawa <nickhirakawa@gmail.com>"]
-edition = "2018"
-
-[dependencies]
-multiset = "0.0.4"
-itertools = "0.8.0"
