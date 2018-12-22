@@ -3,6 +3,7 @@ package com.github.nhirakawa.adventofcode2018;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.github.nhirakawa.adventofcode2018.dayfour.DayFour;
 import com.github.nhirakawa.adventofcode2018.dayone.DayOne;
 import com.github.nhirakawa.adventofcode2018.daythree.DayThree;
 import com.github.nhirakawa.adventofcode2018.daytwo.DayTwo;
@@ -23,6 +24,10 @@ public class Runner {
     DayThree dayThree = new DayThree();
     LOG.info("[Day 3] {}", dayThree.doPartOne());
     LOG.info("[Day 3] {}", dayThree.doPartTwo());
+
+    DayFour dayFour = new DayFour();
+    LOG.info("[Day 4] {}", dayFour.doPartOne());
+    LOG.info("[Day 4] {}", dayFour.doPartTwo());
   }
 
 }
